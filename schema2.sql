@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS tournaments CASCADE;
+CREATE TABLE tournaments (
+  id SERIAL PRIMARY KEY NOT NULL,
+  name varchar(255) NOT NULL
+);
