@@ -1,6 +1,7 @@
 DROP TABLE IF EXISTS players CASCADE;
 CREATE TABLE players (
   id SERIAL PRIMARY KEY NOT NULL,
+  epicID varchar(255),
   name varchar(255) NOT NULL
 );
 DROP TABLE IF EXISTS regions CASCADE;

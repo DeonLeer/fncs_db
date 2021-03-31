@@ -3,6 +3,7 @@ const $ = require('cheerio');
 const url = 'https://fortnitetracker.com/events/epicgames_S15_FNCS_GrandFinals_NAE?window=S15_FNCS_GrandFinals_NAE_Round1&sm=floating';
 
 
+let gameURLArray = []
 
 rp(url)
   .then(function(html){
@@ -31,7 +32,7 @@ rp(url)
       }
       cunt ++
     }
-    console.log(gameInfo)
+    return(gameInfo)
   })
   .catch(function(err){
     console.log("error", err)
