@@ -1,5 +1,0 @@
-DROP TABLE IF EXISTS blank CASCADE;
-CREATE TABLE blank (
-  id SERIAL PRIMARY KEY NOT NULL,
-  blank varchar(255) NOT NULL
-);

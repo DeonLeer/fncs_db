@@ -1,0 +1,1 @@
+INSERT INTO tournaments(name, region) VALUES ('S15FNCS', 'NAE');

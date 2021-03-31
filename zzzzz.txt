@@ -1,0 +1,4 @@
+tournament {
+  fill player and duo/trio/squad(gameplayed) data
+  fill elim data
+}
