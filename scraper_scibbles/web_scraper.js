@@ -28,11 +28,12 @@ rp(url)
         // console.log(gameObject, "object")
         // console.log(gameInfo, "before push")
         gameInfo.push(gameObject)
+        // console.log(gameInfo)
         // console.log(gameInfo, "after push")
       }
       cunt ++
     }
-    return(gameInfo)
+    return console.log(gameInfo)
   })
   .catch(function(err){
     console.log("error", err)
